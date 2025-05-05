@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.btn-main{
+    @apply disabled:bg-gray-700 bg-sky-700 px-10 py-2 text-white border rounded hover:bg-sky-700  transition-colors duration-150
+}
+.m-sec-style{
+    @apply bg-gray-50 border rounded-sm p-4
+
+}
+body{
+    background-color: #eee;
+}
+
+.comment{
+max-height: 400px;
+overflow-y: auto;
+}
