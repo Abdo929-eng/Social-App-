@@ -6,7 +6,7 @@ import { RegisterComponent } from './pages/register/register.component';
 
 export const routes: Routes = [
 
-{path:"" ,redirectTo:"timeline" ,pathMatch:'full'},
+{path:"" ,redirectTo:"register" ,pathMatch:'full'},
 {path:"timeline" ,component:TimelineComponent ,title:"timeline"},
 {path:"login" ,component:LoginComponent ,title:"login"},
 {path:"register" ,component:RegisterComponent ,title:"register"},
